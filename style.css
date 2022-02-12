@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #1B1F27;
+}
+
+.container{
+    max-width: 830px;
+    margin: auto;
+}
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo img{
+    width: 75px;
+    height: 75px;
+}
+
+.section-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.area-login {
+    background-color: #181920;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    height: 300px;
+    border: none;
+    border-radius: 13px;
+    width: 290px;
+    flex-direction: column;
+}
+
+.logo-mb {
+    text-align: center;
+    color: #5868FE;
+}
+
+.logo-mb1 {
+    font-weight: normal;
+    background-color: #cbd0f7;
+    margin-left: 2px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.area-login input {
+    background-color: #252A34;
+    margin-top: 7px;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 8px;
+    display: flex;
+    justify-content: center;
+    color: #cbd0f7;
+
+}
+
+input::placeholder {
+    color: #cbd0f7;
+    font-size: 15px;
+}
+
+.img-po {
+    width: 500px;
+}
+
+.btn-1 {
+    background-color: #5868FE;
+    margin-top: 40px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #cbd0f7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subs-1 {
+    color: #cbd0f7;
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+a {
+    color: #5868FE;
+}
+
+a:hover {
+    color: #5868FE;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 420px) {
+    .section-login {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }  
+
+    .img-po {
+        width: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .area-login {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 120px;
+    }
+
+    .subs-1 {
+        font-size: 15px;
+    }
+
+}
+
